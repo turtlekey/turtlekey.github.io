@@ -1,0 +1,8 @@
+- [GNULinux](/notes/GNULinux)
+- [Html](/notes/Html)
+- [Css](/notes/Css)
+- [Javascript](/notes/Javascript)
+- [Nginx](/notes/Nginx)
+- [Git](/notes/Git)
+- [Python](/notes/Python)
+- [Tools](/notes/Tools)
