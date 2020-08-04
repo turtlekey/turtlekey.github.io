@@ -1,5 +1,6 @@
 ## Git {docsify-ignore}
 
+- [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 - 使用git后文件可能处于的位置：`工作区` `缓存区` `本地仓库` 
 - 提交所有修改到缓存区：`git add .` 或 `git add --all`
 - 查看文件区别
