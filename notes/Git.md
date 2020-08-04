@@ -17,6 +17,7 @@
   4. 关联之后就可将本地内容推送到远程库：`git push -u origin master`， 翻译过来就是”git推送到origin库的master分支（默认分支）“，其中`-u`参数使得本地与远程库origin的master分支绑定，以后可直接使用`git push`
 
 - 本地直接克隆远程库：`git clone git@github.com:michaell/gitskills.git(速度快)`或者`git clone https://github.com/michaell/gitskills.git`
+- 强制push，覆盖远程库中的文件：`git push -u origin master -f`
 
 ---
 
