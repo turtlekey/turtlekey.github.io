@@ -1,1 +1,1 @@
-![^-^](static/img/b.jpg)
+![liqi](static/img/b.jpg)
