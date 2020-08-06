@@ -9,10 +9,8 @@
 
 - 寻找质数（跳出循环）,如果内层循环正常结束，则运行`else`语句，如果中途`break`，则跳过`else`语句
 ```python
-#查找指定范围内的质数
-
-import math
-
+#查找指定范围内的质数	
+import math	
 def primeNumber(n,m):
     primeList = []
     def prime(n,m):
