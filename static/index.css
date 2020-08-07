@@ -32,6 +32,10 @@ aside.sidebar {
 	right: 90%;
 	}
 
+.markdown-section {
+	font-size: 14px;
+	}
+
 .markdown-section > p {
 	height: 38rem;
 	display: flex;

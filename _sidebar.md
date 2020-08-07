@@ -5,4 +5,5 @@
 - [Nginx](/notes/Nginx)
 - [Git](/notes/Git)
 - [Python](/notes/Python)
+- [From0toInfinity](/notes/From0toInfinity)
 - [Tools](/notes/Tools)
