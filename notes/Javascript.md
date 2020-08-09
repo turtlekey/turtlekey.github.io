@@ -24,7 +24,7 @@ console.log();
   	if (width > 900) { //根据设备宽度来判断
 		var head = document.head;  //响应式添加css和js
 		var css = document.createElement("link");
-		var js = document.createElement("script";
+		var js = document.createElement("script");
     	css.setAttribute("rel","stylesheet");
     	css.setAttribute("href","/static/css/index.css");
 		js.setAttribute("src","/static/js/index.js");
