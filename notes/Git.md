@@ -18,6 +18,13 @@
 
 - 本地直接克隆远程库：`git clone git@github.com:michaell/gitskills.git(速度快)`或者`git clone https://github.com/michaell/gitskills.git`
 - 强制push，覆盖远程库中的文件：`git push -u origin master -f`
+- 无法pull远程库：`git pull origin master --allow-unrelated-histories`
+- 直接提交（合并提交到缓存区这一步）：`git commit -am "[message]"`
+- 本地库(新用户)与远程库（github）的信任机制
+	- 本地库默认相信诸如github之类远程库（只会给出一个小小警告）
+	- 远程库并不相信本地库，需要ssh连接，故需要本地用户在用户根目录下创建SSH Key，并将公钥上传到github，实现认证和加密传输
+	- 本地用户还需配置用户名和邮箱地址，用于区分不同的提交人
+	- SSH Key是针对用户的，不是针对仓库
 
 ---
 
