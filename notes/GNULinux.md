@@ -1,5 +1,14 @@
 ## GNULinux {docsify-ignore}
 
+### Configure
+- 修改`hosts`文件
+	- hosts文件所在位置：`/etc/hosts`
+	- windows中所在位置：`C:\Windows\System32\drivers\etc\hosts`,如果文件名是`host`,则需要改成`hosts`
+	- 修改格式：`127.0.0.1	google.com(中间至少隔一个空格)`
+	- windows下的辅助命令：`ipconfig /release(执行之后会断网)` `ipconfig /flushdns`,用于刷新DNS缓存
+	- 文件中应只包含`IP+域名`，不需要添加端口、协议和主机名等，访问时在域名后添加端口
+---
+
 ### Bash
 - yum完全卸载依赖
     1. 找出安装包时的命令(command-number)：`sudo yum history list [package-name]`; 
