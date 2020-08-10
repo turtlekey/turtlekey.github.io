@@ -73,6 +73,13 @@
   - [https://material.io/](https://material.io/) `google开发的在线设计工具`
   - [https://datavizcatalogue.com/ZH/](https://datavizcatalogue.com/ZH/) `数据可视化图表详解`
   - [https://ihateregex.io/](https://ihateregex.io/) `正则表达式工具`
+	- [https://codesandbox.io/](https://codesandbox.io/) `在线前端代码沙箱，可以在线编写运行代码，以及分享网页`
+  - [https://mirrors.cloud.tencent.com/](https://mirrors.cloud.tencent.com/)  `腾讯云软件源，开源软件镜像站`
+	- [http://mirrors.mit.edu/](http://mirrors.mit.edu/) `MIT开源软件镜像站`
+	- [https://mirrors.ustc.edu.cn/](https://mirrors.ustc.edu.cn/) `中科大开源软件镜像站`
+	- [http://mirrors.163.com/](http://mirrors.163.com/) `网易开源软件镜像站`
+	- [http://mirrors.zju.edu.cn/](http://mirrors.zju.edu.cn/) `浙江大学开源软件镜像站`
+	- [http://mirrors.cqu.edu.cn/](http://mirrors.cqu.edu.cn/) `重庆大学开源软件镜像站`
 
   ---
 
@@ -201,6 +208,8 @@
   - [https://mathvault.ca/websites/](https://mathvault.ca/websites/) `一个收集数学相关网站的网站`
   - [http://www.meddir.cn/](http://www.meddir.cn/) `一个很全面的医学导航网站`
   - [http://www.faxin.cn/keyword/index.aspx](http://www.faxin.cn/keyword/index.aspx) `法律条目查询`
+	- [https://www.c82.net/twining/plants/](https://www.c82.net/twining/plants/) `160张植物画册` 
+	- [https://www.plainlanguage.gov/](https://www.plainlanguage.gov/) `简单英语，美国联邦雇员的官方用语指南，既简单又标准`
 
 ---
 
@@ -223,6 +232,7 @@
   - [http://www.ypppt.com/](http://www.ypppt.com/) `ppt模板`
   - [https://www.wondercv.com/](https://www.wondercv.com/) `超级简历`
   - [https://undraw.co/illustrations](https://undraw.co/illustrations) `手绘素材` 
+	
 
   ---
 
@@ -385,6 +395,8 @@
 - [https://fakeupdate.net/](https://fakeupdate.net/) `伪装升级windows系统` 
 - [https://geekprank.com/](https://geekprank.com/) `电脑伪装成其他桌面`
 - [https://gate.ofo.moe/](https://gate.ofo.moe/) `你将被传送到完全随机的一个网站` 
+- [https://iknowwhatyoudownload.com/en/peer/](https://iknowwhatyoudownload.com/en/peer/) `查看某一IP下载过哪些磁力链接`
+- [https://lmgtfy.com/](https://lmgtfy.com/) `我来教你如何使用搜索引擎`
 
 ---
 
@@ -451,6 +463,7 @@
 - [http://guozhivip.com/lab/](http://guozhivip.com/lab/) `果汁实验室` 
 - [https://adzhp.cn/](https://adzhp.cn/) `爱达杂货铺`
 - [http://www.waysto.work/](http://www.waysto.work/) `沃克网址导航`
+- [https://www.bookmarkearth.com/](https://www.bookmarkearth.com/) `书签地球，查看他人浏览器书签`
 
 ---
 
