@@ -25,6 +25,8 @@
 	- 远程库并不相信本地库，需要ssh连接，故需要本地用户在用户根目录下创建SSH Key，并将公钥上传到github，实现认证和加密传输
 	- 本地用户还需配置用户名和邮箱地址，用于区分不同的提交人
 	- SSH Key是针对用户的，不是针对仓库
+- 打标签：`git tag -a [tag-name] -m [message]`
+- 推送标签：`git push origin [tag-name]`
 
 ---
 
