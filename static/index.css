@@ -1,5 +1,10 @@
 /* 自定义样式 */
 
+:root {
+	--sidebar-background: #f2f2f2;
+	--sidebar-nav-background: #f2f2f2;
+	}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -30,6 +35,10 @@ main {
 
 aside.sidebar {
 	right: 90%;
+	}
+
+.sidebar-nav {
+	margin-top: 4rem;
 	}
 
 .markdown-section {

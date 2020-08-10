@@ -366,7 +366,6 @@
 - [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/) `随机生成一张此前从不存在的AI人像`
 - [https://9gans.com/](https://9gans.com/) `每小时更新9张AI生成的艺术画`
 - [https://art42.net/](https://art42.net/) `随机生成AI画作`
-
 - [http://www.seeprettyface.com/index.html](http://www.seeprettyface.com/index.html) `一个可定制生成高颜值AI图片的网站`
 - [https://transformer.huggingface.co/doc/gpt2-large](https://transformer.huggingface.co/doc/gpt2-large) `英文写作自动补全，不是补全单词，是补全文段`
 

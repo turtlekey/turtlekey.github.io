@@ -40,7 +40,12 @@
 					sidebar.insertBefore(searchBox,sidebarNav);
 					searchBox.style.height = "2rem";
 					searchBox.style.background = "#ddd";
-					searchBox.style.margin = "1rem 0 0 0";
+					searchBox.style.position = "absolute";
+					searchBox.style.width = "80%";
+					searchBox.style.margin = "auto";
+					searchBox.style.top = "1rem";
+					searchBox.style.right = "0";
+					searchBox.style.left = "0";
 					searchBox.style.borderRadius = "1rem";
 					searchBox.style.display = "flex";
 					searchBox.style.justifyContent = "center";
@@ -61,16 +66,24 @@
 					input.style.fontWeight = "bolder";
 					input.style.fontSize = "14px";
 					input.style.fontStyle = "italic";
-					//input.style.textIndent = "0.5em";
+					input.style.width = "80%";
 					
 					//搜索过程和结果
 					input.onkeyup = function() {
-						var word = this.value;
+						var word = this.value; //搜索词
+
+						//获得sidebar的所有子孙元素，方便后续统一改变颜色
+						var childNodes = sidebar.querySelectorAll("*");
+						var nodeArray = Array.prototype.slice.call(childNodes,0); 
 
 						//搜索<code>元素并高亮结果
 						var codeKeywords = document.querySelectorAll("code");
 						for (var i=0; i<codeKeywords.length; i++) {
-							codeKeywords[i].style.background = "#e9e9e9";
+							if (nodeArray.includes(codeKeywords[i])) {
+								codeKeywords[i].style.background = "#f2f2f2";
+							}else {
+								codeKeywords[i].style.background = "#e9e9e9";
+							}
 							var keyword = codeKeywords[i].textContent;
 							if (word && keyword.indexOf(word) !== -1) {
 								codeKeywords[i].style.background = "green";
@@ -79,7 +92,11 @@
 						//搜索<a>元素并高亮结果
 						var aKeywords = document.querySelectorAll("a");
 						for (var i=0; i<aKeywords.length; i++) {
-							aKeywords[i].style.background = "#fff";
+							if (nodeArray.includes(aKeywords[i])) {
+								aKeywords[i].style.background = "#f2f2f2";
+							}else {
+								aKeywords[i].style.background = "#fff";
+							}
 							var keyword = aKeywords[i].textContent;
 							if (word && keyword.indexOf(word) !== -1) {
 								aKeywords[i].style.background = "green";
@@ -88,7 +105,11 @@
 						//搜索<p>元素并高亮结果
 						var pKeywords = document.querySelectorAll("p");
 						for (var i=0; i<pKeywords.length; i++) {
-							pKeywords[i].style.background = "#fff";
+							if (nodeArray.includes(pKeywords[i])) {
+								pKeywords[i].style.background = "#f2f2f2";
+							}else {
+								pKeywords[i].style.background = "#fff";
+							}
 							var keyword = pKeywords[i].textContent;
 							if (word && keyword.indexOf(word) !== -1) {
 								pKeywords[i].style.background = "green";
@@ -98,7 +119,11 @@
 						//搜索<li>元素并高亮结果
 						var liKeywords = document.querySelectorAll("li");
 						for (var i=0; i<liKeywords.length; i++) {
-							liKeywords[i].style.background = "#fff";
+							if (nodeArray.includes(liKeywords[i])) {
+								liKeywords[i].style.background = "#f2f2f2";
+							}else {
+								liKeywords[i].style.background = "#fff";
+							}
 							var descendants = liKeywords[i].childNodes;
 							for (var j=0; j<descendants.length; j++) {
 								if (descendants[j].nodeType === 3) {
@@ -107,7 +132,7 @@
 										liKeywords[i].style.background = "green";
 										}
 									}else {
-									continue;
+										continue;
 									}
 								}
 							}
