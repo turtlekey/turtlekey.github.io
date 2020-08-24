@@ -13,6 +13,10 @@
 - yum完全卸载依赖
     1. 找出安装包时的命令(command-number)：`sudo yum history list [package-name]`; 
     2. 恢复该命令之前的状态：`sudo yum history undo [command-number]`;
+- `sudo`提示`command not found`
+	1. `sudo`默认执行系统命令，执行其他命令可能导致`command not found`;
+	2. 使用`sudo vim /etc/sudoers`打开文件修改`env_reset`参数为`!env_reset`，然后`:wq!`退出;
+	3. 使用`vim ~/.bashrc`打开用户配置文件，加上`alias sudo='sudo env PATH=$PATH`，退出，使用`source ~/.bashrc`重新加载;
 
 ---
 ### Vim
