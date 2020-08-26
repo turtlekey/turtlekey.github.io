@@ -4,6 +4,7 @@
 - [Javascript](/notes/Javascript)
 - [Nginx](/notes/Nginx)
 - [Git](/notes/Git)
+- [MySQL](/notes/MySQL)
 - [Python](/notes/Python)
 - [From0toInfinity](/notes/From0toInfinity)
 - [Tools](/notes/Tools)
