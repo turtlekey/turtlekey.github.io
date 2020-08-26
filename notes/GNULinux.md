@@ -24,4 +24,12 @@
   - 解决粘贴外部文本时缩进混乱：粘贴前：`:set paste` ; 粘贴后：`:set nopaste`;
 
 ---
+### tar
+- `tar -cvf demo.tar demo/` 打包demo目录为demo.tar，其中`c>打包` `v>显示过程` ` f>指定打包后的文件名`
+- `tar -zcvf demo.tar.gz demo/` 打包后以gzip压缩，其中`z>压缩(zip)`，`.tar.gz=.tgz`
+- `tar -jcvf demo.tar.bz2 demo/` 打包后以bzip2压缩
+- `tar -ztvf demo.tar.gz` 查阅包内文件，若非压缩包，则省略参数z
+- `tar -zxvf demo.tar.gz` 还原文件，若非压缩包，则省略参数z
+
+---
  
