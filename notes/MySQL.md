@@ -1,3 +1,5 @@
+## MySQL {docsify-ignore}
+
 - 常规命令
   - 进入数据库软件：`mysql -u root -p`
   - 创建数据库：` CREATE DATABASE [database-name];`
