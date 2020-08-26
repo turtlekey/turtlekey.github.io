@@ -285,6 +285,7 @@
 
 	- [http://www.mvcat.com/](http://www.mvcat.com/) `影视推荐，影视解析，影视下载，影视周边，非常强大`
 	- [http://music.ifkdy.com/](http://music.ifkdy.com/) `疯狂音乐搜索，提供多个音乐网站歌曲的在线欣赏和下载` 
+	- [https://www.ballbar.cc/](https://www.ballbar.cc/) `体育赛事直播`
 
   ---
 
