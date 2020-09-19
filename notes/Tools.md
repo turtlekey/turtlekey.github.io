@@ -86,6 +86,7 @@
 - #### Python
 
 	- [https://www.programcreek.com/python/](https://www.programcreek.com/python/) `python代码示例，支持搜索` 
+	- [https://beeware.org/](https://beeware.org/) `让你的 Python 代码可以打包成跨平台图形界面应用`
 
 ---
 
@@ -353,7 +354,7 @@
 - #### 其他
 
 	- [https://theappstore.org/](https://theappstore.org/) `一个针对苹果手机、iPad、Mac 设备的应用搜索工具`
-
+	- [https://www.diffchecker.com/](https://www.diffchecker.com/) `检查文本、图片、PDF 之间的差异`
 ---
 
 ### 黑科技
