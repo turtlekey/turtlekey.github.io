@@ -1,0 +1,37 @@
+baseURL = 'https://turtlekey.github.io/'
+languageCode = 'en-us'
+publicDir = 'docs'
+
+theme = "yinyang"
+DefaultContentLanguage = "cn"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+  name = "Joway"
+  homepage = "https://joway.io/"
+
+
+[params]
+mainSections = ["posts"]
+headTitle = "Joway Wang"
+disqus = "joway" # disqus account name
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+[[params.socials]]
+name = "About Me"
+link = "https://joway.io"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/joway"
+postHeaderContent = ""
+postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+extraCSSFiles = []
