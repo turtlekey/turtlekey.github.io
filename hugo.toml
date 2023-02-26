@@ -1,6 +1,6 @@
 baseURL = 'https://turtlekey.github.io/'
 languageCode = 'en-us'
-publicDir = 'docs'
+publishDir = 'docs'
 
 theme = "yinyang"
 DefaultContentLanguage = "cn"
