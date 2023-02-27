@@ -16,22 +16,19 @@ DefaultContentLanguage = "cn"
     tabWidth = 2
 
 [author]
-  name = "Joway"
-  homepage = "https://joway.io/"
+  name = "turtlekey"
+  homepage = ""
 
 
 [params]
 mainSections = ["posts"]
-headTitle = "Joway Wang"
-disqus = "joway" # disqus account name
+headTitle = "After the Gold Rush"
+description = 'the long horns are gone, and so are the drovers.' 
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 [[params.socials]]
 name = "About Me"
-link = "https://joway.io"
-[[params.socials]]
-name = "Github"
-link = "https://github.com/joway"
-postHeaderContent = ""
+link = "/about"
+postHeaderContent = "<p>test the content</p>"
 postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
 extraCSSFiles = []
