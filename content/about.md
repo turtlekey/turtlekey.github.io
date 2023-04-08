@@ -5,6 +5,6 @@ draft: false
 ---
 
 Just one person who strives for extreme self-reliance.
-
+{{< figure src="/images/avatar.jpg" class="avatar" >}}
 Email: *turtlekey011@gmail.com*
 
