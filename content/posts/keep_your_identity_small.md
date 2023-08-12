@@ -5,6 +5,8 @@ categories: ['repost']
 draft: false
 ---
 
+>本文译自Paul Graham的博文《[Keep Your Identity Small](http://paulgraham.com/identity.html)》。
+
 今天我终于明白了为什么政治和宗教会产生如此独特的无用的讨论。
 
 通常，在线论坛上任何关于宗教的提及都会演变为宗教争论，为什么？为什么宗教会发生这种情况，而不是 Javascript 或烘焙或人们在论坛上谈论的其他话题？
@@ -28,6 +30,3 @@ draft: false
 这个理论最有趣的地方是，如果它是对的，它不仅解释了要避免哪些类型的讨论，而且阐明了如何有更好的想法。如果人们不能清楚地思考任何已经成为他们身份一部分的东西，那么在所有其他条件不变的情况下，最好的方式则是让尽可能少的东西成为他们身份的一部分。
 
 然而，除了将自己视为 X 而容忍 Y之外，我们还可以更进一步：不将自己视为 X。你给自己贴的标签越多，这些标签就会让你越愚蠢。
-
-
-**原文链接：[http://paulgraham.com/identity.html](http://paulgraham.com/identity.html)**

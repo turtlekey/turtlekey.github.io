@@ -293,3 +293,8 @@ a:hover {
 .avatar > img {
   width: 203px;
 }
+
+.markdown-body blockquote a {
+  color: rgb(87,96,106);
+  text-decoration-color: rgb(87,96,106);
+}
