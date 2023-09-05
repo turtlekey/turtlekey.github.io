@@ -298,3 +298,7 @@ a:hover {
   color: rgb(87,96,106);
   text-decoration-color: rgb(87,96,106);
 }
+
+.markdown-body .footnotes ol {
+  padding-inline-start: 20px;
+}
