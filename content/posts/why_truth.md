@@ -27,4 +27,5 @@ draft: false
 
 如果我们想要获得真理，我们可以通过某些方式而不是其他方式来思考，从而最有效地获得真理，这些就是理性的技巧。理性的另一些技巧还涉及克服某一类障碍，诸如偏差等。
 
-[^1]: 一个讨论偏差（偏见）的博客（https://www.overcomingbias.com/）。
+***脚注**
+[^1]: 一个讨论偏差（偏见）的博客[https://www.overcomingbias.com/](https://www.overcomingbias.com/)。
