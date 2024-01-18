@@ -1,7 +1,7 @@
 ---
 title: "我为什么投资股票"
 date: 2022-07-29T18:23:40+08:00
-categories: ['fragment']
+categories: ['stock']
 draft: false
 ---
 
