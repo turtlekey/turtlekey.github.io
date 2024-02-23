@@ -6,7 +6,18 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2024 23:50:16 +0800</lastBuildDate><atom:link href="https://turtlekey.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 20:33:35 +0800</lastBuildDate><atom:link href="https://turtlekey.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>竞价卡位模式</title>
+      <link>https://turtlekey.github.io/posts/the_mode_of_auction_budge/</link>
+      <pubDate>Fri, 23 Feb 2024 20:33:35 +0800</pubDate>
+      
+      <guid>https://turtlekey.github.io/posts/the_mode_of_auction_budge/</guid>
+      <description>待买入的股票池标准
+昨日涨停的连板个股。 个股处于同身位（创业板单独成池且纳入首板）。 按昨日涨停时间降序排列。 买入标准
+当日早盘竞价高开幅度大于前席，且大于后席，且竞价放量。 若竞价涨停，则不能竞价放量；若竞价涨停放量，该席位直接掉入最末。 叠加热点题材最佳。 </description>
+    </item>
+    
     <item>
       <title>股票经典案例</title>
       <link>https://turtlekey.github.io/posts/stock_classic_case/</link>
