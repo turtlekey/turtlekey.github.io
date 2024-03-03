@@ -2,7 +2,7 @@
 title: "竞价卡位模式"
 date: 2024-02-23T20:33:35+08:00
 categories: ["stock"]
-draft: false
+draft: true
 ---
 
 **待买入的股票池标准**
