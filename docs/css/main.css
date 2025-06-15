@@ -181,3 +181,10 @@ footer p {
 .page-content a:hover {
   font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+  .post .post-category,
+  .page-header .page-author,
+  .page-header .taxonomy {
+    display: none;
+  }
+}
