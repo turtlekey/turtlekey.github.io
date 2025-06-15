@@ -1,0 +1,22 @@
+baseURL = 'https://turtlekey.github.io/'
+languageCode = 'en-us'
+title = 'After The Gold Rush'
+publishDir = 'docs'
+theme = ['juneone']
+DefaultContentLanguage = "cn"
+
+[params]
+  favicon = '🥑'
+  author = 'turtlekey'
+  description = 'the long horns are gone, and so are the drovers.'
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
