@@ -62,7 +62,7 @@ header {
   width: 100%;
   position: sticky;
   top: 0;
-  border-bottom: 10px solid var(--black);
+  border-bottom: 4px solid var(--black);
   border-top: 1px solid var(--black);
   padding: 0.2rem 0;
   z-index: 100;
@@ -102,7 +102,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   border-top: 1px solid var(--black);
-  border-bottom: 4px solid var(--black);
+  border-bottom: 1px solid var(--black);
 }
 footer p {
   overflow: hidden;
